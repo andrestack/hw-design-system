@@ -1,0 +1,33 @@
+<!-- @dsCard height=288 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap">
+<style>
+  html, body { margin: 0; height: 100%; background: var(--background); }
+  .cover { position: relative; width: 960px; height: 288px; overflow: hidden; background: var(--background); }
+  .art { position: absolute; left: 480px; top: 0; width: 480px; height: 288px; }
+  .accent { fill: var(--accent); }
+  .marker { fill: var(--marker); }
+  .ink { fill: var(--foreground); }
+  .slab { rx: var(--radius-4xl); }
+  .swirl { fill: none; stroke: var(--background); stroke-width: var(--space-2); stroke-linecap: round; }
+  .text { position: absolute; left: 40px; bottom: 32px; max-width: 440px; display: flex; flex-direction: column; gap: var(--space-3); }
+  .name { margin: 0; font-family: var(--font-sans); font-weight: 500; font-size: 72px; line-height: .95; letter-spacing: -0.025em; color: var(--headline); }
+  .tag { margin: 0; font-family: var(--font-sans); font-size: 14px; line-height: 20px; color: var(--muted-foreground); }
+</style>
+<div class="cover">
+  <svg class="art" viewBox="0 0 480 288" aria-hidden="true">
+    <!--
+      blocks: accent 200×296 slab (radius-4xl), foreground 200×168 (radius-4xl) bleeding top-right, marker disc r44 (radius-full)
+      arrangement: one tall slab bleeding off the top with a satellite block and a low sun, echoing the peak, sky and sun of the logo
+      pattern: literal motif, the painted swirl — "the brand image is the painted sky", so one semicircle spiral cut from the slab in the ground colour
+      scales: spiral pitch 12px (space-3), stroke space-2, corners radius-4xl, disc radius-full
+    -->
+    <rect class="accent slab" x="48" y="-40" width="200" height="296"/>
+    <path class="swirl" d="M148 120 a12 12 0 0 1 24 0 a24 24 0 0 1 -48 0 a36 36 0 0 1 72 0 a48 48 0 0 1 -96 0 a60 60 0 0 1 120 0"/>
+    <rect class="ink slab" x="296" y="-32" width="200" height="168"/>
+    <circle class="marker" cx="340" cy="214" r="44"/>
+  </svg>
+  <div class="text">
+    <p class="name">Hinterland<br>Web</p>
+    <p class="tag">Websites that stand out in the age of AI.</p>
+  </div>
+</div>

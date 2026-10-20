@@ -1,0 +1,31 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": { "v": 1, "at": "2026-10-20T04:31:00Z" },
+  "title": "Hinterland Web",
+  "namespace": "HinterlandWeb",
+  "libraries": [],
+  "sections": {},
+  "groups": ["Logos", "Imagery"],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "m",
+      "order": ["hinterland-logo.png"],
+      "files": {
+        "hinterland-logo.png": { "name": "hinterland-logo.png", "blob": "e009deca137168c14e3114de29821e94", "size": 31418, "type": "image/png" }
+      }
+    },
+    "Imagery": {
+      "name": "Imagery",
+      "tile": "l",
+      "order": ["hinterland-sky.webp"],
+      "files": {
+        "hinterland-sky.webp": { "name": "hinterland-sky.webp", "blob": "50dd585e073420f279dded525d9e17d7", "size": 416060, "type": "image/webp" }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": { "sections": [] },
+  "lastChange": { "by": "André", "at": "2026-10-20T04:31:00Z", "via": "Claude chat", "note": "First version, built from hinterlandweb.com's live CSS, logo and hero image." }
+}
