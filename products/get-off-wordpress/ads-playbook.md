@@ -10,13 +10,16 @@ A tripwire funnel sells a low-priced offer (usually $7–$47). Once tuned, the t
 
 **Test:** A$20/day for 14 days. Keep the ad sets that come in under target; kill the rest. Set the Meta ad account spending limit to the test budget.
 
-**Campaign structure (Sales objective, purchase event on the thank-you page):**
-- Audiences: small-business owners and freelancers, AU / US / UK / NZ, interests WordPress, Wix, Squarespace, Claude.
-- Creative angles, 3 each:
-  - "Your website renewal bill" (cost)
-  - "My site got hacked" (fear)
-  - "Claude rebuilt this in an afternoon" (curiosity, with a screen recording)
-- Retargeting: audit-tool users and guide buyers → Pro and masterclass.
+**Two ad sets, split by buyer:**
+- **DIY ad set** (Sales objective, purchase event on the thank-you page): freelancers, VAs and technical owners, AU / US / UK / NZ, interests WordPress, Wix, Squarespace, Claude → US$9 guide.
+- **Local SMB ad set** (Leads objective): business owners within about 50 km of the Sunshine Coast / SE QLD, trades and local services → free audit → done-for-you (AUD). Goal: cost per audit run and per done-for-you enquiry.
+- Retargeting: audit-tool users, guide buyers, video viewers → Pro, masterclass, done-for-you.
+
+**Creative:** lead with the hook that's already been tested. The LinkedIn post about migrating a hacked WordPress site to Astro, then talking to it through Claude, reached 10k impressions with heavy debate in the comments (Nov 2026). Cut it as a 30–60 second screen recording for both ad sets. Then test these angles against it:
+- "Your website renewal bill" (cost)
+- "My site got hacked" (fear)
+
+**LinkedIn stays organic.** The commenters were mostly developers and agencies: DIY buyers and referrers, not SMB owners. SMB owners are reached through Meta, Google, local Facebook groups and the Swimart/SPASA network.
 
 **Tooling:** Meta's official Ads MCP server (open beta since 29 Apr 2026, 29 tools) ([dev.to](https://dev.to/mattkundo/meta-ads-mcp-launch-ai-agents-can-now-run-your-campaigns-mkdm-4gnl); [Meta docs](https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview)).
 

@@ -122,8 +122,8 @@ GST: Polar is the legal seller of the digital products, so it handles the tax on
 
 | Channel | Buyer | Play |
 | --- | --- | --- |
-| LinkedIn carousels | Both | One migration per post: speed, cost and time before/after |
-| Swimart network + SPASA Queensland | SMB | Free audit for members; one pool-business case study |
+| LinkedIn carousels | DIY + referrers | Organic, no pitch. The hacked-WordPress-to-Astro post reached 10k impressions; let the debate carry reach |
+| Swimart network + SPASA Queensland | SMB | Free audit for members; one pool-business case study; same story in local Facebook groups |
 | Free audit tool | Both | Every post ends with "check your site" |
 | Hacked-site searches | SMB | Pages: "WordPress site hacked?", "Leaving Wix", "Leaving Squarespace" |
 | GitHub | DIY | Public cut-down starter repo whose README points to the Kit |
@@ -134,10 +134,13 @@ GST: Polar is the legal seller of the digital products, so it handles the tax on
 
 See [ads-playbook.md](ads-playbook.md) and [funnel-pages.md](funnel-pages.md) for the working detail.
 
-There are two ad engines:
+Split paid ads by buyer:
 
-- **Meta ads** sell the US$9 guide as a self-liquidating offer.
-- **Google Search ads** catch local SMBs whose site has been hacked and send them to done-for-you.
+- **Meta DIY ad set:** sells the US$9 guide as a self-liquidating offer.
+- **Meta local ad set:** sends SMB owners within about 50 km of the Sunshine Coast to the free audit and done-for-you.
+- **Google Search:** catches people looking for help with a hacked site.
+
+LinkedIn stays organic, with no pitch. The hacked-WordPress → Astro → "talk to it through Claude" post reached 10k impressions with heavy debate in the comments. The commenters were mostly developers and agencies, so LinkedIn feeds the DIY ladder and referrals. Use that story as the first creative for both Meta ad sets.
 
 Claude builds the pages in Claude Code and runs Meta ads through Meta's official MCP server. Every step becomes a post.
 
