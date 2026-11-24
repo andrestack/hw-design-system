@@ -9,6 +9,7 @@ Brand source for [hinterlandweb.com](https://hinterlandweb.com): the design syst
 | `design-system/` | The Hinterland Web design system: `README.md` (voice, colour, type, imagery, motion and carousel rules), `tokens.json` (colours for the dark and light themes, type styles, spacing, radii, shadows, carousel sizes) and component previews. Tokens are taken from the live site's CSS. |
 | `assets/` | `logo.png` / `logo.webp` (128 × 128, the only size the site serves), `hero-sky.webp` (the painted sky, 2048 × 1152), `sky-mask.png` (soft mask of the moving sky area). |
 | `carousels/telegram-bot/` | 8-slide LinkedIn carousel (1080 × 1350) about the Telegram voice-note bot, as editable `.dc.html` artboards, plus the post caption. |
+| `products/get-off-wordpress/` | Plan for the "get off WordPress, Squarespace and Wix" offer: pricing ladder, done-for-you and care plans, e-commerce, funnel page brief, ads playbook, and a `CLAUDE.md` for continuing the work in Claude Code. |
 | `prototypes/living-sky/` | WebGL "living sky" hero prototype: the painted sky drifts, the big swirl breathes, the cursor stirs it. No libraries. |
 
 ## Notes
